@@ -36,7 +36,7 @@ public class Livro {
 		this.editora = editora;
 	}
 
-	public void exibirDetalhes() {
+	public void visualizar() {
 		System.out.println("Livro: " + getNome() + ", Autor: " + autor + ", Editora: " + editora);
 	}
 

@@ -6,11 +6,11 @@ import java.util.List;
 public interface LivroRepository {
 	void adicionar(Livro livro);
 
-	List<Livro> listarTodos();
+	public void listarTodos();
 
-	boolean remover(String livro);
+	public void remover(String livro);
 
 	public void atualizar(Livro livro);
 
-	Livro buscarPorNome(String livro);
+	public void buscarPorNome(String livro);
 }
